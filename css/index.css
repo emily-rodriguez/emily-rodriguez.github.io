@@ -1,7 +1,24 @@
-h1.title {
+a.title {
     text-align: center;
     color: black;
     font-weight: bold;
     font-size: large;
-    font-family: Verdana, sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
 }
