@@ -1,3 +1,8 @@
+body {
+background-image: url("../img/knitting250px/knitting250px.png");
+background-repeat: repeat;
+}
+
 a.title {
     text-align: center;
     color: black;
