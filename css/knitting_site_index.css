@@ -27,3 +27,7 @@ a:hover {
 a:active {
     color: black;
 }
+
+.card {
+    margin: 0 auto;
+}
