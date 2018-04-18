@@ -13,21 +13,15 @@ html, body {
 
 .box .row.content {
     text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .main-section {
     text-align: center;
     box-sizing: border-box;
 }
-
-/*.header {*/
-    /*height: 800px;*/
-    /*width: 100%;*/
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*text-align: center;*/
-/*}*/
 
 #header {
     background-color: #41d3bd;
@@ -49,21 +43,27 @@ html, body {
     background-color: #ffba49;
 }
 
-/*.header.tiny {*/
-    /*height: 80px;*/
-    /*background-color: #1E6056;*/
-    /*transition-duration: 1s;*/
-/*}*/
-
-.header-content>h1 {
+#hello {
     color: white;
+    font-family: 'Playfair Display', serif;
     font-size: 150px;
     margin: 0 auto;
 }
 
-.header-content>h2{
-    color: darkblue;
+#introduction {
+    color: #DB5261;
     font-family: 'Lato', sans-serif;
     margin-top: 0;
 }
+
+.headshot {
+    border-radius: 50%;
+    border: solid #DB5261 10px;
+    height: 300px;
+}
+
+.col {
+    margin: 10px;
+}
+
 
