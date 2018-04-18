@@ -17,11 +17,11 @@ html, body {
     background-color: #00a878;
 }
 
-#section-4 {
+#resume {
     background-color: #bcc4db;
 }
 
-#resume {
+#section-3 {
     background-color: #ef6f6c;
 }
 
@@ -58,10 +58,25 @@ a:hover {
     text-decoration: underline;
 }
 
-#links {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-
+#footer {
+    height: 100px;
+    background-color: transparent;
 }
+
+/*@media (min-width: 768px) {*/
+    /*!*#picture    {*!*/
+        /*!*display: flex;*!*/
+        /*!*justify-content: flex-end;*!*/
+    /*!*}*!*/
+    /*#header-info {*/
+        /*display: flex;*/
+        /*justify-content: flex-start;*/
+        /*text-align: center;*/
+        /*flex-direction: column;*/
+    /*}*/
+
+/*}*/
+
+
+
 
