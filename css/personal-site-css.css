@@ -37,15 +37,16 @@ html, body {
 }
 
 #introduction {
-    color: #db5261;
+    color: #22345c;
     font-family: 'Lato', sans-serif;
     margin-top: 0;
 }
 
 .headshot {
     border-radius: 50%;
-    border: solid #db5261 10px;
+    border: solid #CEA0AE 10px;
     height: 300px;
+    box-shadow: 2px 2px 5px 1px #123A34;
 }
 
 a:link {
