@@ -37,14 +37,14 @@ html, body {
 }
 
 #introduction {
-    color: #DB5261;
+    color: #db5261;
     font-family: 'Lato', sans-serif;
     margin-top: 0;
 }
 
 .headshot {
     border-radius: 50%;
-    border: solid #DB5261 10px;
+    border: solid #db5261 10px;
     height: 300px;
 }
 
@@ -76,6 +76,14 @@ a:hover {
     /*}*/
 
 /*}*/
+
+.links img {
+    -webkit-transition: all 0.5s ease;
+}
+
+.links:hover img {
+    -webkit-transform: scale(1.25);
+}
 
 
 

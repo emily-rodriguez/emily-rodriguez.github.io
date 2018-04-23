@@ -25,6 +25,7 @@ $('a[href*="#"]').click(function(event) {
 });
 
 
+
 // $(window).on("scroll", function () {
 //     $('#header').html("<h1 class='tiny-header-text'>Hello. I'm Emily Rodriguez</h1>").toggleClass('tiny', $(document).scrollTop() > 0);
 // });
